@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.14010416666666667" />
+        <entry key="..\:/CochesQuizPersistencia/app/src/main/res/layout/activity_main.xml" value="0.31354166666666666" />
+        <entry key="..\:/CochesQuizPersistencia/app/src/main/res/layout/content_main.xml" value="0.31354166666666666" />
+        <entry key="..\:/CochesQuizPersistencia/app/src/main/res/layout/fragment_conocimientos.xml" value="0.31354166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.14583333333333334" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.20244565217391305" />
         <entry key="app/src/main/res/layout/fragment_acerca_de.xml" value="0.16983695652173914" />

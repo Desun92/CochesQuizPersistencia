@@ -13,6 +13,7 @@ import android.widget.RadioButton;
 
 import es.android.coches.databinding.FragmentConocimientosBinding;
 import es.android.coches.entidad.Pregunta;
+import es.android.coches.servicio.implementacion.ServicioPreguntasSQLiteImpl;
 import es.android.coches.servicio.implementacion.ServicioPreguntasXMLImpl;
 import es.android.coches.servicio.interfaz.ServicioPreguntas;
 
@@ -41,7 +42,7 @@ public class ConocimientosFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        servicio = new ServicioPreguntasXMLImpl(getContext());
+        servicio = new ServicioPreguntasSQLiteImpl(getContext());
         try {
             preguntas = new ArrayList<>(servicio.generarPreguntas("coches.xml"));
             Collections.shuffle(preguntas);
